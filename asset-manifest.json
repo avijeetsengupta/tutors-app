@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tutors-app/static/css/main.4ca10110.chunk.css",
+    "main.css": "/tutors-app/static/css/main.e1482bda.chunk.css",
     "main.js": "/tutors-app/static/js/main.3cc73a7a.chunk.js",
     "main.js.map": "/tutors-app/static/js/main.3cc73a7a.chunk.js.map",
     "runtime-main.js": "/tutors-app/static/js/runtime-main.6acf11ed.js",
@@ -8,7 +8,7 @@
     "static/js/2.a7caafe4.chunk.js": "/tutors-app/static/js/2.a7caafe4.chunk.js",
     "static/js/2.a7caafe4.chunk.js.map": "/tutors-app/static/js/2.a7caafe4.chunk.js.map",
     "index.html": "/tutors-app/index.html",
-    "static/css/main.4ca10110.chunk.css.map": "/tutors-app/static/css/main.4ca10110.chunk.css.map",
+    "static/css/main.e1482bda.chunk.css.map": "/tutors-app/static/css/main.e1482bda.chunk.css.map",
     "static/js/2.a7caafe4.chunk.js.LICENSE.txt": "/tutors-app/static/js/2.a7caafe4.chunk.js.LICENSE.txt",
     "static/media/aplus.43a1e08b.png": "/tutors-app/static/media/aplus.43a1e08b.png",
     "static/media/banner.56515c02.png": "/tutors-app/static/media/banner.56515c02.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.6acf11ed.js",
     "static/js/2.a7caafe4.chunk.js",
-    "static/css/main.4ca10110.chunk.css",
+    "static/css/main.e1482bda.chunk.css",
     "static/js/main.3cc73a7a.chunk.js"
   ]
 }
