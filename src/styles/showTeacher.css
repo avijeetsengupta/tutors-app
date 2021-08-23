@@ -1,0 +1,50 @@
+.teacher {
+  margin-top: 20px;
+}
+.teacher-list {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.teacher-details {
+  background-color: rgba(111, 0, 255, 0.116);
+  display: flex;
+
+  border-radius: 10px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 20px;
+  padding: 10px;
+  align-items: center;
+}
+.teacher-details img {
+  border-radius: 50%;
+  width: 160px;
+  border: 1px solid;
+}
+.teacher-details .tdata {
+  padding: 10px;
+  line-height: 24px;
+}
+.teacher-details .tdata h3 {
+  color: rgba(255, 255, 255, 0.801);
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn button {
+  padding: 6px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.btn button:hover {
+  background-color: rgb(195, 87, 209);
+  color: blue;
+  transition: 0.8s;
+}

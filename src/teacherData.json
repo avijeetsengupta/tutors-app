@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Suraj",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Lucknow"
+    },
+    "phone": "1-770-736-8031 x56442",
+    "subject": "Science",
+    "classes": {
+      "class": "10th"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Ajay",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Pune"
+    },
+    "phone": "1-770-736-8031 x56442",
+    "subject": "Math",
+    "classes": {
+      "class": "10th"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Sapna",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Lucknow"
+    },
+    "phone": "1-770-736-8031 x56442",
+    "subject": "Math",
+    "classes": {
+      "class": "10th"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Rajesh",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Lucknow"
+    },
+    "phone": "1-770-736-8031 x56442",
+    "subject": "Math",
+    "classes": {
+      "class": "10th"
+    }
+  }
+]

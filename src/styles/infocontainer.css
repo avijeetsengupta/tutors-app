@@ -1,0 +1,46 @@
+.info {
+  background-color: rgba(128, 128, 128, 0.397);
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  height: 500px;
+}
+.outer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.under-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.under-info .student .info1,
+.under-info .teacher .info1 {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.under-info .student .info1 img,
+.under-info .teacher .info1 img {
+  width: 60px;
+}
+.under-info .teacher {
+  margin-bottom: 32px;
+}
+.under-info h3 {
+  width: 300px;
+  border: none;
+  border-width: 1px;
+  margin: auto;
+  text-align: center;
+  border-bottom-style: dotted;
+}

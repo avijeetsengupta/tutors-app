@@ -1,0 +1,51 @@
+[
+  {
+    "states": "Andaman and Nicobar Islands",
+    "id": "1"
+  },
+  {
+    "states": "Andhra Pradesh",
+    "id": "2"
+  },
+  {
+    "states": "Arunachal Pradesh",
+    "id": "3"
+  },
+  {
+    "states": "Assam",
+    "id": "4"
+  },
+  {
+    "states": "Bihar",
+    "id": "5"
+  },
+
+  {
+    "states": "Chhattisgarh",
+    "id": "7"
+  },
+  {
+    "states": "Delhi",
+    "id": "8"
+  },
+  {
+    "states": "Gujarat",
+    "id": "9"
+  },
+  {
+    "states": "Madhya Pradesh",
+    "id": "10"
+  },
+  {
+    "states": "Punjab",
+    "id": "11"
+  },
+  {
+    "states": "Uttar Pradesh",
+    "id": "12"
+  },
+  {
+    "states": "Uttarakhand",
+    "id": "13"
+  }
+]
