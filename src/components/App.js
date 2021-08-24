@@ -8,8 +8,9 @@ import SearchBox from './SearchBox';
 function App() {
   return (
     <div className="App">
-      <Header/>
-       <Switch>
+       <Header/>
+       <Switch> 
+        
                 <Route path="/" component={HomePage} exact />
                 <Route path="/searchbox" component={SearchBox} />
                

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import TeacherJsom from '../teacherData.json'
 import UserImg from '../images/user.png'
 
@@ -38,10 +38,4 @@ export default function ShowTeacher({selectCity,selectSubject}) {
         </div>
     )
 }
-const PopUpTab=()=>{
-    return(
-        <>
 
-        </>
-    )
-}
