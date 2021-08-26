@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
+import HomePage from './HomePage';
 
 function Header() {
     return (
@@ -8,6 +9,7 @@ function Header() {
             Logo
             </div>
             <div className="nav">
+               
                  <Link to="/">Home </Link>
                 <Link to="/searchbox">Search </Link>
                  <Link to="">Become a Tutor </Link>
