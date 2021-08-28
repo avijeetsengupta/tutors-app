@@ -1,9 +1,9 @@
 .info {
-  background-color: rgba(128, 128, 128, 0.397);
+  background-color: #0d47a1;
   width: 100%;
   margin: auto;
   padding: 20px;
-  height: 500px;
+  min-height: 550px;
 }
 .outer {
   width: 90%;
@@ -14,8 +14,9 @@
   align-items: center;
 }
 .outer h1 {
-  color: white;
+  color: #fe4a60;
 }
+
 .under-info {
   display: flex;
   justify-content: center;
@@ -26,8 +27,9 @@
 .under-info .student .info1,
 .under-info .teacher .info1 {
   display: flex;
-  gap: 10px;
-  color: white;
+  gap: 20px;
+  text-align: justify;
+  color: rgb(241, 235, 235);
   font-style: italic;
   padding: 10px;
   margin-top: 20px;
@@ -38,12 +40,11 @@
 .under-info .teacher .info1 img {
   width: 60px;
 }
-.under-info .teacher {
-  margin-bottom: 32px;
-}
+
 .under-info h3 {
   width: 300px;
   border: none;
+  color: #a1b7da;
   border-width: 1px;
   margin: auto;
   text-align: center;

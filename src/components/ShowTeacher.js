@@ -1,8 +1,8 @@
 import React from 'react'
-import TeacherJsom from '../teacherData.json'
+import TeacherJsom from '../jsonData/teacherData.json'
 import UserImg from '../images/user.png'
 
-export default function ShowTeacher({selectCity,selectSubject}) {
+export default function showTeacher({selectCity,selectSubject}) {
    
    
     return (

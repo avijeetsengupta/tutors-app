@@ -1,25 +1,39 @@
+import React,{useState,useEffect} from 'react';
+import {Switch,Route} from 'react-router-dom'
+import HomePage from './HomePage';
+import LoginPage from './LoginPage';
+import SignupPage from './SignupPage';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import FindTutor from './FindTutor';
+import RingLoader from "react-spinners/RingLoader";
 
-import '../styles/App.css';
-import Header from './Header';
-import HomePage from './HomePage'
-import {  Route, Switch } from 'react-router-dom';
-import SearchBox from './SearchBox';
 
 function App() {
+  const [loading,setLoading]=useState(false);
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+    setLoading(false);
+    },3000)
+
+  },[])
   return (
+  
     <div className="App">
-       <Header/>
-       <Switch> 
-        
-                <Route exact path='/' component={HomePage}  />
-                <Route path="/searchbox" component={SearchBox} />
-               
-            </Switch>
-     
-     
-      
-    
-    </div>
+        {loading ? <div className="loader"> <RingLoader color={'#FF7579'} loading={loading}  size={150} /> </div>: <><Navbar/>
+      <div className="container">
+     <Switch>
+       <Route exact path="/" component={HomePage}/>
+       <Route exact path="/findtutor" component={FindTutor}/>
+       <Route exact path="/login" component={LoginPage}/>
+       <Route exact path="/signup" component={SignupPage}/>
+     </Switch>
+     </div>
+      <Footer/>
+   
+    </>}
+       </div>
   );
 }
 

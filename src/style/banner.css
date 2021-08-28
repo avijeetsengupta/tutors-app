@@ -1,0 +1,22 @@
+.banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .left-banner {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  width: 40%;
+  color: rgb(90, 79, 79);
+}
+.banner .right-banner {
+  padding: 20px;
+  width: 50%;
+}
+.banner .right-banner img {
+  width: 90%;
+  height: 90%;
+}
