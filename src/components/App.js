@@ -1,12 +1,15 @@
 import React,{useState,useEffect} from 'react';
 import {Switch,Route} from 'react-router-dom'
 import HomePage from './HomePage';
-import LoginPage from './LoginPage';
-import SignupPage from './SignupPage';
+// import LoginPage from './LoginPage';
+// import SignupPage from './SignUp/Login';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import FindTutor from './FindTutor';
 import RingLoader from "react-spinners/RingLoader";
+import app from './SignUp/App';
+
+
 
 
 function App() {
@@ -26,8 +29,8 @@ function App() {
      <Switch>
        <Route exact path="/" component={HomePage}/>
        <Route exact path="/findtutor" component={FindTutor}/>
-       <Route exact path="/login" component={LoginPage}/>
-       <Route exact path="/signup" component={SignupPage}/>
+       {/* <Route exact path="/login" component={LoginPage}/> */}
+       <Route exact path="/signup" component={app}/>
      </Switch>
      </div>
       <Footer/>

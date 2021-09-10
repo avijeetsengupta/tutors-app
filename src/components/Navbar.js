@@ -6,6 +6,10 @@ import {Link} from 'react-router-dom';
 import Button  from '@material-ui/core/Button';
 import {makeStyles} from '@material-ui/core/styles';
 import Logo from '../images/presentation.png';
+import SimpleSelect from './SimpleSelect';
+import '../style/navrbar.css'
+// import Drawer from './Drawer';
+// import TemporaryDrawer from './Drawer';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,8 +42,10 @@ export default function Navbar() {
               <div className="resp-nav">
               <Button className={classes.Button} color="inherit" component={Link} to="/">Home</Button>
             <Button className={classes.Button} color="inherit" component={Link} to="/findtutor">Find Tutor</Button>
-            <Button className={classes.Button} color="inherit" component={Link} to="/login">login</Button>
-            <Button className={classes.Button} color="inherit" component={Link} to="/signup"  >signup</Button>
+            {/* <Button className={classes.Button} color="inherit" component={Link} to="/login">login</Button> */}
+            {/* <Button className={classes.Button} color="inherit" component={Link} to="/signup">signup</Button> */}
+            <SimpleSelect />
+            {/* <TemporaryDrawer /> */}
             </div>
             </Toolbar>
 

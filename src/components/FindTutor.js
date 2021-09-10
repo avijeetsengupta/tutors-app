@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 
 import CityList from '../jsonData/cities.json';
 import StateList from '../jsonData/states.json';
-import ShowTeacher from './showTeacher';
+import ShowTeacher from './ShowTeacher';
 import { makeStyles } from '@material-ui/core/styles';
 import MenuItem from '@material-ui/core/MenuItem';
 import InputLabel from '@material-ui/core/InputLabel';
@@ -34,7 +34,7 @@ export default function FindTutor() {
    // history.push('/HomePage')
     return (
              <div className="input-box">
-                 {/* --------{filter locotion}------ */}
+                 {/* --------{filter location}------ */}
                  <div className="location">
                       <FormControl className={classes.formControl} >
         <InputLabel id="demo-simple-select-label">State</InputLabel>
