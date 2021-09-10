@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react"
 import fire from "../config/fire"
 import Login from "./Login";
 import Hero from "./Hero";
-import SimpleSelect from "../SimpleSelect";
 
 const App = () => {
 
@@ -101,7 +100,7 @@ const App = () => {
     passwordError={passwordError}
     />
     )}
-    <SimpleSelect />
+    
     
     </div>
   );
